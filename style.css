@@ -1,0 +1,78 @@
+.centralizer {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  background-color: #858bea;
+  padding: 50px;
+}
+.calculatorDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 666px;
+  height: 999px;
+  background-color: #252236;
+  border-radius: 35px;
+  margin: 0 auto;
+}
+.formDiv {
+  display: flex;
+  background-color: #323555;
+  border-radius: 35px;
+  padding: 15px 30px;
+  font-size: 30px;
+  color: white;
+  width: 90%;
+}
+input {
+  background-color: #323555;
+  font-size: 30px;
+  color: white;
+  border: none;
+  outline: 0;
+  margin-left: 10px;
+  placeholder: 10;
+}
+.peopleTotalDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.finalDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.finalDiv p {
+  font-size: 60px;
+  color: white;
+}
+p {
+  font-size: 35px;
+  color: white;
+  padding: 0px 25px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+}
+.counter p {
+  font-size: 35px;
+  color: black;
+  margin: 0 auto;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #858bea;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 35px;
+}
