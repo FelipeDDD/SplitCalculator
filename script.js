@@ -12,7 +12,7 @@ function calculateBill () {
     if (isNaN(tipValue)) tipValue = 0;
     
     result = billValue * (tipValue / 100) + billValue;
-    total.innerText = "$" + result.toFixed(2) / people.value;
+    total.innerText = "$" + (result / people.value).toFixed(2) 
 }
 
 
